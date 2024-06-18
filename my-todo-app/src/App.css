@@ -1,0 +1,108 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.HeaderContainer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Nav a:hover {
+  text-decoration: underline;
+}
+
+.FooterContainer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.TodoContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Title {
+  text-align: center;
+}
+
+.Form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #21a1f1;
+}
+
+.ListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.DeleteButton {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.DeleteButton:hover {
+  background-color: #ff4c4c;
+}
